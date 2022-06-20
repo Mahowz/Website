@@ -1,0 +1,123 @@
+<html>
+    
+
+
+
+ 
+    <header>
+        <title> Boii </title>
+
+        <style>
+            h1{
+                text-align: start;
+                text-shadow: #085863 1px 1px;
+                font-size: 38px;
+            }        
+            
+            
+
+            body {
+                background-color: rgb(190, 190, 186);
+                margin: 50px;
+            }
+            td:hover {
+                    background-color: azure;
+
+            }
+            table {
+                    
+                    border-width: 2px;
+                    border-color: #000000;
+                    border-style: solid;
+                    background-color: rgb(26, 42, 58);
+                    text-decoration-color: orange;
+                    text-decoration: solid;
+                    text-decoration-color: #043a8b;
+                    border-collapse: separate;
+                    border-spacing: 10px;
+                
+                    
+
+            }
+        
+
+            td {
+                border-width: 1px;
+                border-color: #66676b;
+                border-style: solid;
+                border-top-style:groove;
+                border-bottom-style: groove;
+                border-left-color: aquamarine;   
+                border-right-color: azure;   
+                border-top-color: rgb(73, 147, 163);   
+                border-bottom-color: rgb(7, 27, 27);       
+                width: 50px;
+                height: 50px;
+                font-size: 21px;
+                font-style: normal;
+                text-align: center;
+                background-color: rgb(119, 172, 197);
+                box-shadow: #02475383 2px 4px;
+                
+            }
+
+            .Result {
+                text-align: end;
+                color: aqua;    
+            
+            }
+        
+
+        </style>
+
+    </header>
+
+    <body>
+        <h1> Het rekenmachine          </h1>
+    
+        <br >
+    
+        
+      
+
+        <table> 
+                
+                <tr>
+                    <td colspan="4" id="Result" class="Result"></td>
+                </tr>
+                <tr>
+                    <td>Clear</td>
+                    <td>/</td>
+                    <td>*</td>
+                    <td>-</td>
+            
+                </tr>
+            
+                <tr>  
+                    <td onclick="onDigitPress()">7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td rowspan="3">+</td>
+                    
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">0</td>
+                    <td>.</td>
+                    <td>=</td>
+                </tr>
+        </table>
+
+        <script src="calculator.js"> </script>
+    </body>
+</html>
