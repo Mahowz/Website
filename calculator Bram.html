@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Een tof rekenmachien</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="calculator.css"stylesheet">
+        <link href="calculator.css" rel="stylesheet">
+    </head>
+    
+    <body class="container">
+        <h1>Het mega coole rekenmachien</h1>
+
+        <button onclick="clearDisplay()">Clear display</button>
+
+        <table class="table" id="calculator">
+            <tr>
+                <td colspan="4" id="result">8008135</td>
+            </tr>
+            <tr>
+                <td onclick="onDigitPress(7)">7</td>
+                <td onclick="onDigitPress(8)">8</td>
+                <td onclick="onDigitPress(9)">9</td>
+                <td class="sign">/</td>
+            </tr>
+            <tr>
+                <td onclick="onDigitPress(4)">4</td>
+                <td onclick="onDigitPress(5)">5</td>
+                <td onclick="onDigitPress(6)">6</td>
+                <td class="sign">x</td>
+            </tr>
+            <tr>
+                <td onclick="onDigitPress(1)">1</td>
+                <td onclick="onDigitPress(2)">2</td>
+                <td onclick="onDigitPress(3)">3</td>
+                <td class="sign">-</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>.</td>
+                <td class="equals" onclick="onEquals()">=</td>
+                <td class="sign" onclick="onPlusPress()">+</td>
+            </tr>
+        </table>
+
+        <script src="calculator Bram.js"></script>
+    </body>
+</html>
